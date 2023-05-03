@@ -1,0 +1,50 @@
+[
+    {
+                "id": "1",
+                "chefName": "John Doe",
+                "yearsOfExperience": 10,
+                "numRecipes": 150,
+                "likes": 5000,
+                "chefPicture": "https://example.com/john-doe-profile-pic.jpg"
+    },
+    {
+                "id": "2",
+                "chefName": "Jane Smith",
+                "yearsOfExperience": 8,
+                "numRecipes": 100,
+                "likes": 4000,
+                "chefPicture": "https://example.com/jane-smith-profile-pic.jpg"
+    },
+    {
+                "id": "3",
+                "chefName": "Mark Johnson",
+                "yearsOfExperience": 15,
+                "numRecipes": 200,
+                "likes": 8000,
+                "chefPicture": "https://example.com/mark-johnson-profile-pic.jpg"
+    },
+    {
+                "id": "4",
+                "chefName": "Anna Lee",
+                "yearsOfExperience": 5,
+                "numRecipes": 75,
+                "likes": 2500,
+                "chefPicture": "https://example.com/anna-lee-profile-pic.jpg"
+    },
+    {
+                "id": "5",
+                "chefName": "David Kim",
+                "yearsOfExperience": 12,
+                "numRecipes": 180,
+                "likes": 6500,
+                "chefPicture": "https://example.com/david-kim-profile-pic.jpg"
+    },
+    {
+                "id": "6",
+                "chefName": "Sara Ramirez",
+                "yearsOfExperience": 7,
+                "numRecipes": 90,
+                "likes": 3500,
+                "chefPicture": "https://example.com/sara-ramirez-profile-pic.jpg"
+    }
+]

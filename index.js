@@ -8,7 +8,7 @@ const Port = process.env.PORT || 5000;
 const data = require('./data/data.json')
 
 app.get('/', (req, res) => {
-    res.send('server runnig')
+    res.send('server is runnig')
 })
 
 app.get('/cafe', (req, res) => {

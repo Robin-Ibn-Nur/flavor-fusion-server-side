@@ -1,50 +1,302 @@
 [
     {
-                "id": "1",
-                "chefName": "John Doe",
-                "yearsOfExperience": 10,
-                "numRecipes": 150,
-                "likes": 5000,
-                "chefPicture": "https://example.com/john-doe-profile-pic.jpg"
+        "id": "1",
+        "chefsName": "Chef Carla",
+        "chefsPicture": "https://www.reviewjournal.com/wp-content/uploads/2016/08/web1_7_6776396.jpg",
+        "country": "Italy",
+        "bio": "Chef Carla grew up in a family of chefs and has been cooking since she was a child. She studied culinary arts in Italy and has worked in various restaurants across the country. She loves to cook authentic Italian cuisine.",
+        "likes": 1000,
+        "recipes": [
+            {
+                "name": "Spaghetti Carbonara",
+                "ingredients": [
+                    "spaghetti",
+                    "pancetta",
+                    "egg yolks",
+                    "Parmesan cheese",
+                    "black pepper"
+                ],
+                "cooking_method": "Boil the spaghetti until al dente. In a separate pan, cook the pancetta until crispy. In a bowl, mix the egg yolks, Parmesan cheese, and black pepper. Drain the spaghetti and add it to the pan with the pancetta. Turn off the heat and add the egg mixture, stirring quickly to avoid scrambling the eggs.",
+                "rating": 4.5,
+                "favorite": false
+            },
+            {
+                "name": "Margherita Pizza",
+                "ingredients": [
+                    "pizza dough",
+                    "tomato sauce",
+                    "mozzarella cheese",
+                    "basil",
+                    "olive oil"
+                ],
+                "cooking_method": "Roll out the pizza dough and top with tomato sauce and mozzarella cheese. Bake in a preheated oven until the crust is golden brown. Top with fresh basil and drizzle with olive oil.",
+                "rating": 4.7,
+                "favorite": true
+            },
+            {
+                "name": "Tiramisu",
+                "ingredients": [
+                    "ladyfingers",
+                    "mascarpone cheese",
+                    "egg yolks",
+                    "sugar",
+                    "espresso"
+                ],
+                "cooking_method": "Mix together the mascarpone cheese, egg yolks, and sugar until smooth. Dip the ladyfingers in espresso and arrange in a dish. Cover with the cheese mixture and refrigerate until set.",
+                "rating": 4.8,
+                "favorite": true
+            }
+        ],
+        "years_experience": 10
     },
     {
-                "id": "2",
-                "chefName": "Jane Smith",
-                "yearsOfExperience": 8,
-                "numRecipes": 100,
-                "likes": 4000,
-                "chefPicture": "https://example.com/jane-smith-profile-pic.jpg"
+        "id": "2",
+        "chefsName": "Chef Juan",
+        "chefsPicture": "https://4.bp.blogspot.com/-Hmob2sl6Z6U/WPFu6SLJKcI/AAAAAAAAt5o/VqtcuRIsvss6_Dpe4Qfb7e2hlMyLnMBTQCLcB/s1600/chef%2Bjuan%2Bcabrera%2Bportada%2Btop%2Bchef.jpg",
+        "country": "Mexico",
+        "bio": "Chef Juan grew up in Mexico and has been cooking traditional Mexican cuisine for over 20 years. He loves to experiment with new flavors and ingredients.",
+        "likes": 800,
+        "recipes": [
+            {
+                "name": "Tacos al Pastor",
+                "ingredients": [
+                    "pork shoulder",
+                    "pineapple",
+                    "corn tortillas",
+                    "onion",
+                    "cilantro"
+                ],
+                "cooking_method": "Marinate the pork shoulder in a blend of chili powder, paprika, garlic powder, cumin, oregano, and pineapple juice. Roast on a spit until cooked through. Serve on corn tortillas with diced pineapple, onion, and cilantro.",
+                "rating": 4.6,
+                "favorite": false
+            },
+            {
+                "name": "Guacamole",
+                "ingredients": [
+                    "avocado",
+                    "onion",
+                    "tomato",
+                    "lime",
+                    "cilantro"
+                ],
+                "cooking_method": "Mash the avocado in a bowl. Mix in diced onion, tomato, lime juice, and chopped cilantro. Season with salt                 and pepper to taste.",
+                "rating": 4.8,
+                "favorite": true
+            },
+            {
+                "name": "Chiles Rellenos",
+                "ingredients": [
+                    "poblano peppers",
+                    "ground beef",
+                    "tomato sauce",
+                    "queso fresco",
+                    "egg whites"
+                ],
+                "cooking_method": "Roast the poblano peppers until charred. Peel off the skin and remove the seeds. Stuff with a mixture of cooked ground beef, tomato sauce, and crumbled queso fresco. Whip the egg whites until stiff peaks form. Dip the stuffed peppers in the egg whites and fry until golden brown.",
+                "rating": 4.4,
+                "favorite": false
+            }
+        ],
+        "years_experience": 20
     },
     {
-                "id": "3",
-                "chefName": "Mark Johnson",
-                "yearsOfExperience": 15,
-                "numRecipes": 200,
-                "likes": 8000,
-                "chefPicture": "https://example.com/mark-johnson-profile-pic.jpg"
+        "id": "3",
+        "chefsName": "Chef Sana",
+        "chefsPicture": "https://thumbs.dreamstime.com/b/indian-female-chef-holding-wooden-spoon-picture-standing-studio-wearing-unform-63322709.jpg",
+        "country": "India",
+        "bio": "Chef Sana is an expert in Indian cuisine and has been cooking for over 15 years. She loves to create new dishes that combine traditional Indian flavors with modern techniques.",
+        "likes": 1200,
+        "recipes": [
+            {
+                "name": "Butter Chicken",
+                "ingredients": [
+                    "chicken thighs",
+                    "tomato puree",
+                    "heavy cream",
+                    "butter",
+                    "garam masala"
+                ],
+                "cooking_method": "Marinate the chicken thighs in a blend of yogurt, ginger, garlic, cumin, coriander, and turmeric. Grill or bake until cooked through. In a separate pan, sauté onion, tomato puree, and garam masala until fragrant. Add heavy cream and butter and stir until combined. Add the cooked chicken and simmer until the sauce thickens.",
+                "rating": 4.9,
+                "favorite": true
+            },
+            {
+                "name": "Naan Bread",
+                "ingredients": [
+                    "flour",
+                    "water",
+                    "yeast",
+                    "salt",
+                    "sugar"
+                ],
+                "cooking_method": "Mix together the flour, yeast, salt, and sugar. Add water and knead until a smooth dough forms. Let rise until doubled in size. Roll out the dough and cook on a hot griddle until puffed and golden brown.",
+                "rating": 4.7,
+                "favorite": false
+            },
+            {
+                "name": "Palak Paneer",
+                "ingredients": [
+                    "spinach",
+                    "paneer cheese",
+                    "onion",
+                    "garlic",
+                    "ginger"
+                ],
+                "cooking_method": "Sauté onion, garlic, and ginger in a pan until fragrant. Add spinach and cook until wilted. Blend the mixture until smooth. Add diced paneer cheese and simmer until heated through.",
+                "rating": 4.6,
+                "favorite": true
+            }
+        ],
+        "years_experience": 15
     },
     {
-                "id": "4",
-                "chefName": "Anna Lee",
-                "yearsOfExperience": 5,
-                "numRecipes": 75,
-                "likes": 2500,
-                "chefPicture": "https://example.com/anna-lee-profile-pic.jpg"
+        "id": "4",
+        "chefsName": "Chef Pierre",
+        "chefsPicture": "https://www.gayot.com/blog/wp-content/uploads/2010/06/Chef-Pierre-Gagnaire.jpg",
+        "country": "France",
+        "bio": "Chef Pierre is a classically trained French chef with over 25 years of experience. He loves to create dishes that showcase the flavors of his homeland.",
+        "likes": 1500,
+        "recipes": [
+            {
+                "name": "Coq au Vin",
+                "ingredients": [
+                    "chicken thighs",
+                    "red wine",
+                    "bacon",
+                    "mushrooms",
+                    "pearl onions"
+                ],
+                "cooking_method": "Sauté bacon until crispy. Remove from pan and set aside. Brown chicken thighs in the same pan. Add pearl onions and mushrooms and sauté until browned. Deglaze the pan with red wine and add chicken broth. Simmer until the chicken is cooked through and the sauce has thickened.",
+                "rating": 4.8,
+                "favorite": true
+            },
+            {
+                "name": "Croque Monsieur",
+                "ingredients": [
+                    "sliced bread",
+                    "ham",
+                    "gruyere cheese",
+                    "bechamel sauce",
+                    "butter"
+                ],
+                "cooking_method": "Butter one side of each slice of bread. Layer ham and gruyere cheese on the non-buttered side of one slice. Top with the other slice of bread, buttered side up. Cook in a hot pan until golden brown on both sides. Serve with warm bechamel sauce.",
+                "rating": 4.5,
+                "favorite": false
+            },
+            {
+                "name": "Crème Brûlée",
+                "ingredients": [
+                    "heavy cream",
+                    "egg yolks",
+                    "sugar",
+                    "vanilla extract",
+                    "brown sugar"
+                ],
+                "cooking_method": "Mix together heavy cream, egg yolks, sugar, and vanilla extract. Pour into ramekins and bake in a water bath until set. Chill in the fridge until cold. Sprinkle brown sugar on top and use a kitchen torch to caramelize the sugar.",
+                "rating": 4.9,
+                "favorite": true
+            }
+        ],
+        "years_experience": 25
     },
     {
-                "id": "5",
-                "chefName": "David Kim",
-                "yearsOfExperience": 12,
-                "numRecipes": 180,
-                "likes": 6500,
-                "chefPicture": "https://example.com/david-kim-profile-pic.jpg"
+        "id": "5",
+        "chefsName": "Chef Takeshi",
+        "chefsPicture": "https://3.bp.blogspot.com/-bzeHD2khV-w/UPXyiFLPUZI/AAAAAAAAcKk/EHy249BqwZs/s1600/ChefTakashiYagihashi.jpg",
+        "country": "Japan",
+        "bio": "Chef Takeshi specializes in traditional Japanese cuisine and has over 10 years of experience. He loves to showcase the delicate flavors and textures of Japanese ingredients.",
+        "likes": 800,
+        "recipes": [
+            {
+                "name": "Sushi Rolls",
+                "ingredients": [
+                    "sushi rice",
+                    "nori sheets",
+                    "raw fish",
+                    "cucumber",
+                    "avocado"
+                ],
+                "cooking_method": "Cook sushi rice according to package instructions. Lay a sheet of nori on a sushi mat. Spread a thin layer of rice on top of the nori, leaving a 1-inch border at the bottom. Add strips of raw fish, cucumber, and avocado. Roll tightly and slice into pieces.",
+                "rating": 4.7,
+                "favorite": true
+            },
+            {
+                "name": "Miso Soup",
+                "ingredients": [
+                    "dashi stock",
+                    "miso paste",
+                    "tofu",
+                    "green onions",
+                    "seaweed"
+                ],
+                "cooking_method": "Heat dashi stock in a pot. Dissolve miso paste in a small amount of the hot stock. Add the miso mixture back into the pot. Add diced tofu, sliced green onions, and torn seaweed. Simmer until heated through.",
+                "rating": 4.5,
+                "favorite": false
+            },
+            {
+                "name": "Tempura",
+                "ingredients": [
+                    "shrimp",
+                    "vegetables",
+                    "flour",
+                    "cornstarch",
+                    "ice water"
+                ],
+                "cooking_method": "Mix together flour, cornstarch, and ice water until a batter forms. Dip shrimp and vegetables in the batter and fry in hot oil until crispy.",
+                "rating": 4.8,
+                "favorite": true
+            }
+        ],
+        "years_experience": 10
     },
     {
-                "id": "6",
-                "chefName": "Sara Ramirez",
-                "yearsOfExperience": 7,
-                "numRecipes": 90,
-                "likes": 3500,
-                "chefPicture": "https://example.com/sara-ramirez-profile-pic.jpg"
+        "id": "6",
+        "chefsName": "Chef Maria",
+        "chefsPicture": "https://ww1.prweb.com/prfiles/2013/11/26/11372744/New%20Maria%20Elia.jpg",
+        "country": "Mexico",
+        "bio": "Chef Maria is a Mexican cuisine specialist and has over 15 years of experience in creating flavorful and authentic dishes. She loves to experiment with different spices and ingredients to create unique and delicious dishes.",
+        "likes": 1200,
+        "recipes": [
+            {
+                "name": "Enchiladas",
+                "ingredients": [
+                    "corn tortillas",
+                    "shredded chicken",
+                    "enchilada sauce",
+                    "cheddar cheese",
+                    "sour cream"
+                ],
+                "cooking_method": "Warm corn tortillas and fill with shredded chicken. Roll and place in a baking dish. Cover with enchilada sauce and cheddar cheese. Bake until cheese is melted and bubbly. Serve with a dollop of sour cream.",
+                "rating": 4.9,
+                "favorite": true
+            },
+            {
+                "name": "Guacamole",
+                "ingredients": [
+                    "ripe avocados",
+                    "diced tomatoes",
+                    "diced onions",
+                    "jalapeño pepper",
+                    "lime juice"
+                ],
+                "cooking_method": "Mash ripe avocados in a bowl. Add diced tomatoes, diced onions, minced jalapeño pepper, and lime juice. Stir to combine. Serve with tortilla chips.",
+                "rating": 4.7,
+                "favorite": false
+            },
+            {
+                "name": "Tacos al Pastor",
+                "ingredients": [
+                    "pork shoulder",
+                    "achiote paste",
+                    "pineapple",
+                    "corn tortillas",
+                    "cilantro"
+                ],
+                "cooking_method": "Marinate pork shoulder in a mixture of achiote paste, pineapple juice, and spices. Grill until cooked through. Serve on warm corn tortillas with diced pineapple and chopped cilantro.",
+                "rating": 4.8,
+                "favorite": true
+            }
+        ],
+        "years_experience": 15
     }
 ]

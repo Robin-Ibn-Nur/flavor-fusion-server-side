@@ -15,11 +15,11 @@ app.get('/cafe', (req, res) => {
     res.send(data);
 })
 
-// app.get('/cafe/:id', (req, res) => {
-//     const id = parseInt(req.params?.id);
-//     const selectedRecipes = data?.find(c => c.id == id)
-//     res.send(selectedRecipes)
-// })
+app.get('/cafe/:id', (req, res) => {
+    const id = parseInt(req.params?.id);
+    const selectedRecipes = data?.find(c => c.id == id)
+    res.send(selectedRecipes)
+})
 
 app.listen(Port, () => {
     console.log('server is running on port', Port)
